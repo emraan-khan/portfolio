@@ -1,0 +1,53 @@
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title{
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.about__description {
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__hr{
+    border-color: var(--clr-slate800);
+}
+
+.about__subtitle {
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.about__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.about__list{
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__techicon {
+    display: inline-block;
+    width: var(--size-xl);
+
+}
+.about__techicon img{
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-light);
+    border-radius: 5px;
+}
+
+.about__list::before{
+    content: '';
+}

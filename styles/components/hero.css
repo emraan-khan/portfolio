@@ -98,7 +98,32 @@
 }
 
 /* xl */
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+    .hero{
+        gap: 2rem;
+    }
+
+    .hero__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .hero__subtitle {
+        font-size: var(--size-4xl);
+    }f
+
+    .hero__title {
+        font-size: var(--size-9xl);
+    }
+
+    .hero__description {
+        font-size: var(--size-xl);
+    }
+
+    .hero__btn {
+        font-size: var(--size-lg);
+    }
+}
 
 /* 2xl */
 @media (min-width: 1536px) {}
