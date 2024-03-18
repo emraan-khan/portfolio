@@ -50,4 +50,5 @@
 
 .about__list::before{
     content: '';
+    padding: 1.2rem
 }
