@@ -30,7 +30,7 @@ section {
     width: 15px;
     height: 15px;
     background-color: lightgrey;
-    top: 25%;
+    top: 18%;
     border-radius: 50%;
     z-index: 1;
 }
@@ -40,7 +40,7 @@ section {
 }
 
 .timeline-box:nth-child(2n+1)::after {
-    right: -11.8%;
+    right: -14.5%;
 }
 
 .timeline-box:nth-child(2n)::after {
@@ -64,17 +64,23 @@ section {
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
+    top: 11%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 59%;
     color: #433E3F;
 }
 
 #timeline-divider .timeline-traveller {
     position: sticky;
-    top: 135px;
+    top: 165px;
     z-index: 2;
+}
+
+.plane{
+    border: 1px solid yellow;
+    width: 40px;
+    height: 40px;
 }
 
 #timeline-divider i {
@@ -107,6 +113,7 @@ section {
     padding: 2px;
     color: grey;
     line-height: 20px;
+    text-align: left;
 }
 
 
@@ -170,7 +177,7 @@ section {
 
 /*Percentage Classes */
 
-.eighty-five-percent {
+/* .eighty-five-percent {
     height: inherit;
     width: 85%;
 }
@@ -183,7 +190,7 @@ section {
 .fifty-percent {
     height: inherit;
     width: 50%;
-}
+} */
 
 
 @media only screen and (max-width: 572px) {
