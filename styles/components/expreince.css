@@ -9,7 +9,9 @@ section {
 }
 
 .section-heading{
+    /* margin-top: 2rem; */
     color:  var(--clr-light);;
+    font-size: var(--size-5xl);
 }
 /* Work Experience */
 
@@ -118,7 +120,7 @@ section {
 .experience-description {
     font-size: 14px;
     padding: 2px;
-    color: grey;
+    color: var(--clr-slate600);
     line-height: 20px;
     text-align: left;
 }
@@ -201,7 +203,14 @@ section {
 
 
 @media only screen and (max-width: 572px) {
-    
+
+
+    .section-heading{
+        font-size: var(--size-3xl);
+    } 
+    .experience-description {
+        font-size: var(--size-base);
+    }
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -216,6 +225,15 @@ section {
         display: none;
     } 
 
+}
+
+@media (max-width:475px){
+    .section-heading{
+        font-size: var(--size-2xl);
+    } 
+    .experience-description {
+        font-size: var(--size-sm);
+    }
 }
 
 
