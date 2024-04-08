@@ -263,9 +263,9 @@ section {
     }
 }
 
-@media (max-width:475px){
+/* @media (max-width:475px){
     #timeline-divider {
         height: 56%;
     }
-}
+} */
 
