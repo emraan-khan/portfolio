@@ -76,7 +76,7 @@ section {
     top: 11%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 59%;
+    height: 56%;
     color: #433E3F;
 }
 
@@ -105,7 +105,7 @@ section {
 
 .experience-company-name {
     margin: 5px 0 0;
-    color: #eb822d;
+    color:var(--clr-slate400);
     font-weight: 400;
     font-size: 1.2rem;
 }
@@ -113,12 +113,12 @@ section {
 .experience-duration {
     color: #9e9b9b;
     font-weight: 100;
-    color: grey;
+    color: var(--clr-light);
     font-size: 1rem;
 }
 
 .experience-description {
-    font-size: 14px;
+    font-size: var(--size-xl);
     padding: 2px;
     color: var(--clr-slate600);
     line-height: 20px;
@@ -170,36 +170,6 @@ section {
 }
 
 
-/* setting background-color */
-
-.m-blue {
-    color: #2857a4;
-}
-
-.mb-blue {
-     background-color: #2857a4;
-}
-
-
-
-
-
-/*Percentage Classes */
-
-/* .eighty-five-percent {
-    height: inherit;
-    width: 85%;
-}
-
-.eighty-percent {
-    height: inherit;
-    width: 80%;
-}
-
-.fifty-percent {
-    height: inherit;
-    width: 50%;
-} */
 
 
 @media only screen and (max-width: 572px) {
@@ -227,14 +197,7 @@ section {
 
 }
 
-@media (max-width:475px){
-    .section-heading{
-        font-size: var(--size-2xl);
-    } 
-    .experience-description {
-        font-size: var(--size-sm);
-    }
-}
+
 
 
 
@@ -252,7 +215,7 @@ section {
 
     #timeline-divider {
         top: 11%;
-        left: 3.5%;
+        left: 3.1%;
     }
 
     #contact-form {
@@ -273,5 +236,36 @@ section {
         margin: 10%;
     }
 
+}
+
+@media (max-width:475px){
+    #timeline-divider {
+        top: 11%;
+        left: 4%;
+        height: 58%;
+    }
+    .section-heading{
+        font-size: var(--size-2xl);
+    } 
+    .experience-description {
+        font-size: var(--size-sm);
+    }
+    strong{
+        font-size: var(--size-lg);
+    }
+
+    .experience-company-name{
+        font-size: var(--size-base);
+    }
+    .experience-duration{
+        font-size: var(--size-base);
+
+    }
+}
+
+@media (max-width:475px){
+    #timeline-divider {
+        height: 56%;
+    }
 }
 
