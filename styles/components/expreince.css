@@ -78,8 +78,8 @@ section {
     width: 0;
     top: 11%;
     left: 50%;
-    border: 1px dashed #0096fa6b;
-    height: 56%;
+    border: 1px dashed var(--clr-indigo);
+    height: 58%;
     color: #433E3F;
 }
 
@@ -99,7 +99,7 @@ section {
     transform: rotate(90deg);
     margin-top: -35px;
     display: block;
-    color: #2857a4;
+    color: var(--clr-indigo);
 }
 
 .experience-designation {
