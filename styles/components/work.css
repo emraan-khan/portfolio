@@ -59,6 +59,10 @@
     font-size: var(--size-sm);
 }
 
+.work__project-subtitle{
+    display: none;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .work__title {
@@ -96,6 +100,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         border: 1px solid red;
+        place-items: center;
+    }
+
+    .work__project{
+        padding: 0 1rem;
+        user-select: none;
     }
 
     .work__project-title {
@@ -118,6 +128,11 @@
 
     .work__project:not(:last-child) {
         margin-bottom: 0;
+    }
+
+    .work__project-subtitle{
+        display: block;
+        font-size: var(--size-base);
     }
 }
 
