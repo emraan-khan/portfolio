@@ -14,6 +14,14 @@ const mobileNav = () => {
         document.body.style.overflowY = 'auto';
         }
     })
+
+    mobileLinks.forEach(link =>{
+        link.addEventListener('click', ()=>{
+            isMobileNavOpen = false;
+            mobileNav.style.display = 'none';
+            document.body.style.overflowY = 'auto'
+        })
+    })
 }
 
 export default mobileNav;
