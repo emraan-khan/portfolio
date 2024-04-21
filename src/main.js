@@ -13,5 +13,8 @@ import '../styles/utils.css'
 // import fucntion from another js files
 
 import mobileNav from './utils/mobile-nav'
+import darkMode from './utils/dark-mode'
 
 mobileNav();
+
+darkMode();

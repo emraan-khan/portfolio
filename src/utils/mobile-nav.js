@@ -2,6 +2,7 @@ const mobileNav = () => {
     const headerBtn = document.querySelector('.header__bars');
     const mobileNav = document.querySelector('.mobile-nav');
     const mobileLinks =  document.querySelectorAll('.mobile-nav__link')
+    const idMobileNav = document.querySelector('#mobile-nav')
     let isMobileNavOpen = false;
 
     headerBtn.addEventListener('click',()=>{
@@ -13,6 +14,13 @@ const mobileNav = () => {
             mobileNav.style.display = 'none';
         document.body.style.overflowY = 'auto';
         }
+    })
+
+    window.addEventListener('resize',function(){
+        if (window.innerWidth >= 768) {
+            idMobileNav.style.display = 'none';
+        }
+        
     })
 
     mobileLinks.forEach(link =>{
