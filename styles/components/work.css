@@ -114,6 +114,7 @@
   
     .work__image1 {
       grid-area: image1;
+     
     }
   
     .work__image2 {
@@ -244,6 +245,10 @@
       font-size: var(--size-5xl);
     }
   
+    .work__img-wrapper{
+      margin: 1rem 0;
+    }
+
     .work__description {
       font-size: var(--size-xl);
       margin: 2rem auto;
@@ -275,5 +280,9 @@
   @media (min-width: 1536px) {
     .work__container {
       width: 70%;
+    }
+
+    .work__project-title{
+      
     }
   }

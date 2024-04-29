@@ -21,3 +21,12 @@ mobileNav();
 darkMode();
 
 lazyLoading();
+
+const official = document.querySelectorAll('#Official');
+
+official.forEach(element => {
+    element.addEventListener('click',function(e){
+        alert('Sorry this project is confidential. Because of Client restrictions. Projects with p are prsonal you can check them out.');
+        e.preventDefault();
+    })
+});
