@@ -20,6 +20,10 @@
 }
 
 
+.social__links>a{
+    font-size: var(--size-2xl);
+}
+
 @media (min-width: 475px) {
     
 }

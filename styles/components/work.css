@@ -10,7 +10,7 @@
   .work__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     margin: 1rem auto;
   }
   
@@ -48,13 +48,13 @@
   
   .work__project-description1 {
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     margin: 1rem 0;
   }
   
   .work__project-description2 {
     font-size: var(--size-sm);
-    color: var(--clr-slate400);
+    color: var(--clr-slate200);
     margin-bottom: 1rem;
   }
   
